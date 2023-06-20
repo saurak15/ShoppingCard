@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Card</title>
+</head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Merriweather:wght@900&family=Oswald&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Dosis&family=Merriweather:wght@900&family=Oswald&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #navbar{
+        background-color: #b6fae9;
+        height: 100vh;
+        width: 100vw;
+        /* cursor: pointer; */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+    list-style: none;
+    color: white;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #006699;
+        box-shadow: 0 0 5px : #006699;
+        
+        height: 40px;
+        cursor: pointer;
+        font-family: 'Merriweather', serif;
+    }
+    li:hover,button:hover{
+        background-color:#ff0066;
+        padding: 5px 10px;
+        /* border: 4px solid black; */
+
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        color: white;
+    }
+    .shopping{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        padding: 1%;
+        /* flex-wrap: wrap; */
+    }
+    .cardcontainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        background-color:#e79cfa;
+        flex: 0 0 250px;
+        box-shadow: 0 0 10px rgba(0,0, 0, .5);
+        padding: 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+
+    }
+    img{
+        width: 200px;
+        height: 150px;
+        border-radius: 4px;
+
+    }
+    .img{
+        width: 200px;
+        margin: 0 auto;
+        padding: 4px;
+    }
+    .card h3{
+        color: white;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+    }
+    .content{
+        padding: 10px;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+    }
+    button{
+        padding: 12px 15px;
+        background-color: #ff0066;
+        color: white;
+        border: none;
+
+    }
+    .icons{
+        font-size: 40px;
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 50px;
+        padding: 5px  10px;
+        /* margin: 0px 20px; */
+    }
+    .icons .wp{
+        color: #00cc00;
+    }
+    .icons .fb{
+        color: #0033cc;
+    }
+    .icons .insta{
+        color: #ff0066;
+    }
+
+
+    }
+
+
+
+</style>
+
+<body>
+    <!-- navbar -->
+<section id="navbar">
+    <header>
+        <a href="">EGATOR</a>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href=""> About</a></li>
+                <li><a href=""> Contact</a></li>
+                <li><a href=""> Gallery</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- navbar ends -->
+    <div class="shopping">
+        <div class="cardcontainer">
+            <div class="card">
+                <div class="img">
+                    <img src="2.jpg" alt="">
+    
+                </div>
+                <h3> iPhone different Colurs</h3>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio explicabo maxime necessitatibus eius exercitationem aliquid officia beatae odit quae?
+    
+                </div>
+                <div class="btn">
+                    <a href=""> <button> View More</button></a>
+                </div>
+                <div class="icons">
+                    <div class="wp">
+                        
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </div>
+                    <div class="fb">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="insta">
+
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+    
+    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="1.jpg" alt="">
+    
+                </div>
+                <h3> New iphone design </h3>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio explicabo maxime necessitatibus eius exercitationem aliquid officia beatae odit quae?
+    
+                </div>
+                <div class="btn">
+                    <a href=""> <button> View More</button></a>
+                </div>
+                <div class="icons">
+                    <div class="wp">
+                        
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </div>
+                    <div class="fb">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="insta">
+
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+    
+    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="3.jpg" alt="">
+    
+                </div>
+                <h3> SmartPhones</h3>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio explicabo maxime necessitatibus eius exercitationem aliquid officia beatae odit quae?
+    
+                </div>
+                <div class="btn">
+                    <a href=""> <button> View More</button></a>
+                </div>
+                <div class="icons">
+                    <div class="wp">
+                        
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </div>
+                    <div class="fb">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="insta">
+
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
